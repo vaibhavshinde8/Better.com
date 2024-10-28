@@ -1,0 +1,115 @@
+
+.header {
+  background-color: #0d572f;
+  display: flex;
+  padding: 1rem;
+  font-size: large;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.navList {
+  display: flex;
+  list-style: none;
+  color: white;
+}
+
+.navList li {
+  margin-left: 100px;
+}
+
+.navList li a {
+  color: white;
+  text-decoration: none;
+}
+
+
+.signInButton {
+  color: white;
+  cursor: pointer;
+}
+
+/* Responsive styling for tablets */
+@media (max-width: 1024px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navList {
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navList li {
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+
+  .signInButton {
+    margin-top: 15px;
+  }
+}
+
+
+@media (max-width: 912px) {
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .navList li {
+    margin-left: 20px; 
+  }
+
+  .signInButton {
+    margin: 0;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0.5rem;
+  }
+
+  .navList {
+    flex-direction: column;
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .navList li {
+    margin-left: 0;
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .signInButton {
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .header {
+    font-size: medium;
+  }
+
+  .navList li {
+    margin-top: 5px;
+  }
+
+  .signInButton {
+    font-size: small;
+  }
+}

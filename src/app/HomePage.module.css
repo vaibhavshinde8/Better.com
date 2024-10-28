@@ -1,0 +1,179 @@
+
+
+.container {
+  background-color: #0d572f; 
+  min-height: 100vh;        
+  color: white;             
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.title {
+  font-size: 4rem;        
+  font-weight: bold;
+  color: #ffffff;            
+  text-align: center;
+  line-height: 1.2;
+  margin: 2rem 0 1rem;       
+}
+
+.title span {
+  display: block;            
+}
+
+.image {
+  max-width: 90%;        
+  width: 30%;              
+  height: auto;
+  margin-top: 1.5rem;      
+  border-radius: 8px;        
+}
+
+.footer {
+  margin-top: 2rem;
+  font-size: 0.875rem;
+  color: #ccc;
+  text-align: center;
+}
+
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2.5rem;       
+  }
+
+  .image {
+    width: 80%;               
+  }
+
+  .sider {
+    flex-direction: column;  
+    align-items: center;       
+  }
+
+  .left {
+    width: 100%;            
+    padding: 15px;           
+    margin-bottom: 1rem;     
+  }
+
+  .rating {
+    flex-direction: column;   
+    align-items: center;       
+    font-size: 0.9rem;        
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 2rem;           
+  }
+
+  .footer {
+    font-size: 0.75rem;        
+  }
+
+  .rating p {
+    font-size: 0.8rem;         
+}
+}
+.sider {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.left {
+  background-color: #026e35;
+  padding: 15px 30px;
+  border-radius: 25px;
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: center;
+  display: inline-block;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+}
+
+.left:hover {
+  background-color: #028a43;
+  transform: scale(1.05);
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  color: #ffb400; 
+  font-size: 1rem;
+}
+
+.rating p {
+  margin-left: 8px;
+  color: white;
+  font-weight: 500;
+}
+
+.flexcompo {
+  display: flex;
+}
+
+.footer {
+  padding: 20px;
+  background-color: #f9f9f9;
+  font-size: 14px;
+  color: #555;
+}
+
+
+.socialIconsSection {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.icon {
+  color: #555;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+
+.footnotesSection {
+  font-size: 12px;
+  color: #666;
+  margin: 10px 0;
+}
+
+.footnote {
+  margin: 10px 0;
+}
+
+.footnotesSection a {
+  color: #0073e6;
+  text-decoration: none;
+}
+
+.legalSection {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #555;
+}
+
+.divider {
+  margin: 20px 0;
+  border: 0.5px solid #ddd;
+}
+
+.legalText {
+  margin-bottom: 10px;
+}
+
+.legalSection a,
+.noticeLink a {
+  color: #0073e6;
+  text-decoration: none;
+}

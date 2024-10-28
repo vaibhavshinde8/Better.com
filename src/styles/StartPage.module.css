@@ -1,0 +1,114 @@
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.5rem 1rem;
+    background-color: #f8f9fa;
+    min-height: 100vh;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 768px;
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #007F3B;
+  }
+  
+  .helpText {
+    color: #666;
+  }
+  
+  .phone {
+    color: #007F3B;
+  }
+  
+  .mainContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    margin-top: 2.5rem;
+  }
+  
+  .profileImage {
+    border-radius: 50%;
+    border: 4px solid #e0e0e0;
+    width: 60px;
+    height: 60px;
+  }
+  
+  .greeting {
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  
+  .subGreeting {
+    font-size: 1.25rem;
+    color: #555;
+    margin-top: 0.5rem;
+  }
+  
+  .buttonGroup {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  
+  .button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .button:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .buttonText {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .icon {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 500px;
+    margin-top: 2.5rem;
+    text-align: center;
+    color: #666;
+  }
+  
+  .statNumber {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #007F3B;
+  }
+  

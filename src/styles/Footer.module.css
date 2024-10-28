@@ -1,0 +1,96 @@
+.footer {
+  background-color: #f8f9fa; 
+  padding: 40px 20px; 
+  text-align: center; 
+  font-family: 'Arial', sans-serif; 
+}
+
+.socialIconsSection {
+  margin-bottom: 20px; 
+}
+
+.icon {
+  margin: 0 10px;
+  font-size: 24px; 
+  color: #007bff; 
+  transition: color 0.3s; 
+}
+
+.icon:hover {
+  color: #0056b3; 
+}
+
+.footnotesSection {
+  margin: 20px 0; 
+  font-size: 14px;
+  color: #6c757d; 
+}
+
+.footerSection {
+  margin: 20px 0; 
+  flex: 1; 
+  min-width: 200px; 
+}
+
+.footerLogo {
+  font-size: 28px; 
+  font-weight: bold; 
+}
+
+.footerTitle {
+  font-size: 20px; 
+  margin-top: 15px; 
+}
+
+.footerList {
+  list-style: none; 
+  padding: 0; 
+}
+
+.footerList li {
+  margin: 5px 0; 
+}
+
+.contactInfo {
+  margin: 10px 0;
+  font-size: 16px; 
+}
+
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 30px 10px; 
+  }
+
+  .footerLogo {
+    font-size: 24px;
+  }
+
+  .footerTitle {
+    font-size: 18px; 
+  }
+
+  .footerList li {
+    margin: 3px 0; 
+  }
+}
+
+.footerContainer {
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: space-between;
+  padding: 20px; 
+}
+
+.foot {
+  display: flex; 
+  flex-direction: row; 
+}
+
+
+@media (max-width: 768px) {
+  .foot {
+    flex-direction: column; 
+    align-items: center; 
+  }
+}

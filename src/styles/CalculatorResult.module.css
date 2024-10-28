@@ -1,0 +1,11 @@
+/* src/styles/CalculatorResult.module.css */
+.result {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #e7f3ff;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.25rem;
+  }
+  
